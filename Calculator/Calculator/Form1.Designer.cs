@@ -402,7 +402,6 @@
             this.textBox1.Size = new System.Drawing.Size(313, 31);
             this.textBox1.TabIndex = 24;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -454,7 +453,6 @@
             this.Name = "Form_calculator";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Калькулятор";
-            this.Load += new System.EventHandler(this.Form_calculator_Load);
             this.Shown += new System.EventHandler(this.Form_calculator_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -8,14 +8,36 @@ namespace Calculator
 {
     public partial class Form_calculator : Form
     {
-        float a, b, result;
+        float a, result;
         int count;
         bool znak = true;
-        private object MenuItem1;
 
         public Form_calculator()
         {
             InitializeComponent();
+        }
+
+        public bool SetAutorunValue(bool autorun)
+        {
+            const string name = "Calculator";
+
+            string ExePath = System.Windows.Forms.Application.ExecutablePath;
+            RegistryKey reg;
+            reg = Registry.CurrentUser.CreateSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Run\\");
+            try
+            {
+                if (autorun)
+                    reg.SetValue(name, ExePath);
+                else
+                    reg.DeleteValue(name);
+
+                reg.Close();
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -92,7 +114,7 @@ namespace Calculator
 
         private void button15_Click(object sender, EventArgs e)
         {
-            a = float.Parse(textBox1.Text);textBox1.Clear();
+            a = float.Parse(textBox1.Text); textBox1.Clear();
             textBox1.Clear();
             znak = true;
             textBox2.Text = textBox2.Text + a.ToString() + " * ";
@@ -106,7 +128,9 @@ namespace Calculator
             if (a == 0)
             {
                 textBox1.Text = "Деление на ноль невозможно";
-            } else {
+            }
+            else
+            {
                 textBox1.Clear();
                 znak = true;
                 textBox2.Text = textBox2.Text + a.ToString() + " / ";
@@ -165,7 +189,7 @@ namespace Calculator
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -189,62 +213,57 @@ namespace Calculator
             textBox1.Text = Convert.ToString(a);
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
 
-        }
+        static void DirTree(string folder, string tabul, string path)
+        {
+            tabul += "  ";
+            FileInfo[] filesInFolder = null;
+            DirectoryInfo[] newFolders = null;
         
+            filesInFolder = new DirectoryInfo(folder).GetFiles();
+            newFolders = new DirectoryInfo(folder).GetDirectories();
 
-        private void toolStripTextBox1_Click(object sender, EventArgs e)
-        {
-            
+            foreach (DirectoryInfo crrdir in newFolders)
+            {
+                System.IO.File.AppendAllText(path + "\\Log.txt", "\r\n" + tabul + "   -> " + crrdir + ":");
+                string folder2 = folder + "\\" + crrdir;
+                DirTree(folder2, tabul, path);
+            }
+
+            foreach (FileInfo crrfile in filesInFolder)
+            {
+                System.IO.File.AppendAllText(path + "\\Log.txt", "\r\n" + tabul + "   -> " + crrfile);
+            }
+
         }
 
-        private void Form_calculator_Load(object sender, EventArgs e)
-        {
-            const string name = "Calculator";
-            string ExePath = System.Windows.Forms.Application.ExecutablePath;
-            RegistryKey reg;
-            reg = Registry.CurrentUser.CreateSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Run\\");
-            reg.SetValue(name, ExePath);
-            reg.Close();
-        }
 
         private void Form_calculator_Shown(object sender, EventArgs e)
         {
+            //SetAutorunValue(true);
+            var location = System.Reflection.Assembly.GetExecutingAssembly().Location;
+            //Для выделения пути к каталогу, воспользуйтесь `System.IO.Path`:
+            var path = Path.GetDirectoryName(location);
 
-            string dirName = Application.StartupPath.ToString();
+            string tabul = "";
 
-            ProcessStartInfo psi = new ProcessStartInfo();
-            psi.FileName = "cmd";
-            psi.Arguments = @"/c tree > " + dirName + "log1.txt";
-            psi.WindowStyle = ProcessWindowStyle.Hidden;
-            psi.RedirectStandardOutput = true;
-            psi.UseShellExecute = false;
-            psi.CreateNoWindow = true;
-            Process.Start(psi);
+            System.IO.File.WriteAllText(path + "\\Log.txt", path + ":\n");
 
-            ProcessStartInfo psi2 = new ProcessStartInfo();
-            psi2.FileName = "cmd";
-            psi2.Arguments = @"/c dir /s> " + dirName + "log2.txt";
-            psi2.WindowStyle = ProcessWindowStyle.Hidden;
-            psi2.RedirectStandardOutput = true;
-            psi2.UseShellExecute = false;
-            psi2.CreateNoWindow = true;
-            Process.Start(psi2);
+            DirTree(path, tabul, path);
+
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
             a = float.Parse(textBox1.Text);
             textBox2.Text = "1/(" + a + ")";
-            a = 1/a;
+            a = 1 / a;
             textBox1.Text = Convert.ToString(a);
         }
 
         private void calculate()
         {
-            switch(count)
+            switch (count)
             {
                 case 0:
                     result = a;
@@ -262,12 +281,13 @@ namespace Calculator
                     if (a == 0)
                     {
                         MessageBox.Show("Деление на ноль невозможно", "Ошибка");
-                    }else
-                    result /= a;
+                    }
+                    else
+                        result /= a;
                     break;
 
                 default:
-                       break;
+                    break;
             }
         }
     }

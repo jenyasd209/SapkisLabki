@@ -8,22 +8,3 @@ C:\Users\Asus\Documents\Visual Studio 2017\Projects\Calculator\Calculator\obj\De
 C:\Users\Asus\Documents\Visual Studio 2017\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\Asus\Documents\Visual Studio 2017\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
 C:\Users\Asus\Documents\Visual Studio 2017\Projects\Calculator\Calculator\obj\Debug\Calculator.Form_calculator.resources
-E:\Calculator\Calculator\bin\Debug\Calculator.exe.config
-E:\Calculator\Calculator\obj\Debug\Calculator.exe
-E:\Calculator\Calculator\obj\Debug\Calculator.pdb
-E:\Calculator\Calculator\bin\Debug\Calculator.exe
-E:\Calculator\Calculator\bin\Debug\Calculator.pdb
-E:\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
-E:\Calculator\Calculator\obj\Debug\Calculator.Form_calculator.resources
-E:\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
-E:\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
-F:\Calculator\Calculator\bin\Debug\Calculator.exe.config
-F:\Calculator\Calculator\bin\Debug\Calculator.exe
-F:\Calculator\Calculator\bin\Debug\Calculator.pdb
-F:\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
-F:\Calculator\Calculator\obj\Debug\Calculator.Form_calculator.resources
-F:\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
-F:\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
-F:\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
-F:\Calculator\Calculator\obj\Debug\Calculator.exe
-F:\Calculator\Calculator\obj\Debug\Calculator.pdb

@@ -1,0 +1,9 @@
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\bin\Release\key preview.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\bin\Release\key preview.pdb
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\obj\Release\key preview.csprojResolveAssemblyReference.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\obj\Release\key_preview.Form1.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\obj\Release\key_preview.Properties.Resources.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\obj\Release\key preview.csproj.GenerateResource.Cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\obj\Release\key preview.csproj.CoreCompileInputs.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\obj\Release\key preview.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Тест хук\key preview\key preview\obj\Release\key preview.pdb

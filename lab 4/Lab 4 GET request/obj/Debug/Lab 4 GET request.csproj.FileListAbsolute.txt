@@ -1,0 +1,11 @@
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\bin\Debug\Lab 4 GET request.exe.config
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\bin\Debug\Lab 4 GET request.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\bin\Debug\Lab 4 GET request.pdb
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\bin\Debug\xNet.dll
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.csprojResolveAssemblyReference.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab_4_GET_request.Form1.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab_4_GET_request.Properties.Resources.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.csproj.GenerateResource.Cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.csproj.CoreCompileInputs.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.pdb

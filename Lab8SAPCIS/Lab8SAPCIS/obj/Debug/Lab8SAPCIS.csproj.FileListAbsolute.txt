@@ -1,0 +1,10 @@
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\bin\Debug\Lab8SAPCIS.exe.config
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\bin\Debug\Lab8SAPCIS.exe
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\bin\Debug\Lab8SAPCIS.pdb
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\obj\Debug\Lab8SAPCIS.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\obj\Debug\Lab8SAPCIS.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\obj\Debug\Lab8SAPCIS.csproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\obj\Debug\Lab8SAPCIS.csproj.CoreCompileInputs.cache
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\obj\Debug\Lab8SAPCIS.exe
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\obj\Debug\Lab8SAPCIS.pdb
+c:\users\asus\documents\visual studio 2017\Projects\Lab8SAPCIS\Lab8SAPCIS\obj\Debug\Lab8SAPCIS.Form1.resources

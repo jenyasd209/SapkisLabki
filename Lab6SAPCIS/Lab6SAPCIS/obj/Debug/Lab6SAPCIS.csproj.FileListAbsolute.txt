@@ -1,0 +1,10 @@
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\bin\Debug\Lab6SAPCIS.exe.config
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\bin\Debug\Lab6SAPCIS.exe
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\bin\Debug\Lab6SAPCIS.pdb
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\obj\Debug\Lab6SAPCIS.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\obj\Debug\Lab6SAPCIS.Form1.resources
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\obj\Debug\Lab6SAPCIS.Properties.Resources.resources
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\obj\Debug\Lab6SAPCIS.csproj.GenerateResource.Cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\obj\Debug\Lab6SAPCIS.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\obj\Debug\Lab6SAPCIS.exe
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Lab6SAPCIS\Lab6SAPCIS\obj\Debug\Lab6SAPCIS.pdb

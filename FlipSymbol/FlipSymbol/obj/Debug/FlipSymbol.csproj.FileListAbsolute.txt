@@ -1,0 +1,10 @@
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\bin\Debug\FlipSymbol.exe.config
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\bin\Debug\FlipSymbol.exe
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\bin\Debug\FlipSymbol.pdb
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\obj\Debug\FlipSymbol.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\obj\Debug\FlipSymbol.Form1.resources
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\obj\Debug\FlipSymbol.Properties.Resources.resources
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\obj\Debug\FlipSymbol.csproj.GenerateResource.Cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\obj\Debug\FlipSymbol.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\obj\Debug\FlipSymbol.exe
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\FlipSymbol\FlipSymbol\obj\Debug\FlipSymbol.pdb
